@@ -104,7 +104,7 @@ minetest.register_entity("painting:picent", {
 
 		data = minetest.deserialize(data)
 
-		if not data.grid then
+		if not data or not data.grid then
 			return
 		end
 
