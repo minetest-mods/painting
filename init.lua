@@ -643,3 +643,6 @@ minetest.register_craft({
 	}
 })
 --]]
+
+-- print to log after mod was loaded successfully
+print ("[MOD] Painted loaded")
